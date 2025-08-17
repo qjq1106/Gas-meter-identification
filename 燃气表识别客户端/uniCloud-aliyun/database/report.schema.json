@@ -1,0 +1,118 @@
+{
+  "bsonType": "object",
+  "required": ["reading", "address", "date", "imageUrl"],
+  "permission": {
+    "read": true,
+    "create": true,
+    "update": true,
+    "delete": false
+  },
+  "properties": {
+    "_id": {
+      "description": "ID，系统自动生成"
+    },
+    "reading": {
+      "bsonType": "string",
+      "description": "当前读数",
+      "label": "当前读数",
+      "errorMessage": "读数不能为空"
+    },
+    "lastReading": {
+      "bsonType": "string", 
+      "description": "上次读数",
+      "label": "上次读数"
+    },
+    "integerPart": {
+      "bsonType": "string",
+      "description": "整数部分",
+      "label": "整数部分"
+    },
+    "decimalPart": {
+      "bsonType": "string", 
+      "description": "小数部分",
+      "label": "小数部分"
+    },
+    "address": {
+      "bsonType": "string",
+      "description": "详细地址",
+      "label": "详细地址",
+      "errorMessage": "地址不能为空"
+    },
+    "building": {
+      "bsonType": "string",
+      "description": "楼栋号",
+      "label": "楼栋号",
+      "enum": ["1号楼", "2号楼", "3号楼"]
+    },
+    "date": {
+      "bsonType": "string",
+      "description": "抄表日期",
+      "label": "抄表日期", 
+      "errorMessage": "日期不能为空"
+    },
+    "time": {
+      "bsonType": "string",
+      "description": "抄表时间",
+      "label": "抄表时间"
+    },
+    "remark": {
+      "bsonType": "string",
+      "description": "备注信息",
+      "label": "备注信息"
+    },
+    "status": {
+      "bsonType": "string",
+      "description": "报告状态", 
+      "label": "报告状态",
+      "enum": ["已识别", "已确认", "待审核", "异常"],
+      "defaultValue": "已识别"
+    },
+    "imageUrl": {
+      "bsonType": "string",
+      "description": "燃气表图片URL",
+      "label": "燃气表图片",
+      "errorMessage": "图片不能为空"
+    },
+    "ocrResult": {
+      "bsonType": "object",
+      "description": "OCR识别原始结果",
+      "label": "OCR识别结果",
+      "properties": {
+        "decimal": {
+          "bsonType": "string",
+          "description": "小数部分识别结果"
+        },
+        "integer": {
+          "bsonType": "string", 
+          "description": "整数部分识别结果"
+        },
+        "success": {
+          "bsonType": "bool",
+          "description": "识别是否成功"
+        },
+        "request_id": {
+          "bsonType": "string",
+          "description": "请求ID"
+        },
+        "ret": {
+          "bsonType": "array",
+          "description": "详细识别结果"
+        }
+      }
+    },
+    "createTime": {
+      "bsonType": "timestamp",
+      "description": "创建时间",
+      "forceDefaultValue": {
+        "$env": "now"
+      }
+    },
+    "updateTime": {
+      "bsonType": "timestamp", 
+      "description": "更新时间",
+      "forceDefaultValue": {
+        "$env": "now"
+      }
+    }
+  }
+}

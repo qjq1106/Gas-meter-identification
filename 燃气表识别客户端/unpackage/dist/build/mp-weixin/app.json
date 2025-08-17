@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/recognize/recognize",
+    "pages/report/report",
+    "pages/reportDetail/reportDetail"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "燃气表识别",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "#F5F5F5"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#007AFF",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/recognize/recognize",
+        "text": "识别"
+      },
+      {
+        "pagePath": "pages/report/report",
+        "text": "报告"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

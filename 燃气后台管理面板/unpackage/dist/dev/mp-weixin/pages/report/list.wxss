@@ -1,0 +1,13 @@
+
+.uni-container {
+	padding: 15px;
+}
+.uni-group {
+	display: flex;
+	gap: 5px;
+}
+.uni-pagination-box {
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+}

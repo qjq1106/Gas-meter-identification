@@ -1,0 +1,44 @@
+{
+  "pages": [
+    {
+      "path": "pages/recognize/recognize",
+      "style": {
+        "navigationBarTitleText": "燃气表识别"
+      }
+    },
+    {
+      "path": "pages/report/report",
+      "style": {
+        "navigationBarTitleText": "识别报告"
+      }
+    },
+    {
+      "path": "pages/reportDetail/reportDetail",
+      "style": {
+        "navigationBarTitleText": "报告详情"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "燃气表识别",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "#F5F5F5"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#007AFF",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/recognize/recognize",
+        "text": "识别"
+      },
+      {
+        "pagePath": "pages/report/report",
+        "text": "报告"
+      }
+    ]
+  },
+  "uniIdRouter": {}
+}

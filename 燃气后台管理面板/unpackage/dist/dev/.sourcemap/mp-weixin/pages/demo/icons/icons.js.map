@@ -1,0 +1,1 @@
+{"version":3,"file":"icons.js","sources":["../../../../微信开发者工具/HBuilderX/plugins/uniapp-cli-vite/uniPage:/cGFnZXMvZGVtby9pY29ucy9pY29ucy52dWU"],"sourcesContent":["import MiniProgramPage from 'E:/testProjects/WeChatProjects/testProject-2/燃气后台管理面板/pages/demo/icons/icons.vue'\nwx.createPage(MiniProgramPage)"],"names":["MiniProgramPage"],"mappings":";;AACA,GAAG,WAAWA,MAAe,eAAA;"}

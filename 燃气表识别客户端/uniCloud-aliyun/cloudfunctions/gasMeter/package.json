@@ -1,0 +1,7 @@
+{
+  "name": "gasMeter",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "燃气表报告管理",
+  "usingComponents": {
+    "uni-th": "../../uni_modules/uni-table/components/uni-th/uni-th",
+    "uni-tr": "../../uni_modules/uni-table/components/uni-tr/uni-tr",
+    "uni-td": "../../uni_modules/uni-table/components/uni-td/uni-td",
+    "uni-tag": "../../uni_modules/uni-tag/components/uni-tag/uni-tag",
+    "uni-table": "../../uni_modules/uni-table/components/uni-table/uni-table",
+    "uni-pagination": "../../uni_modules/uni-pagination/components/uni-pagination/uni-pagination"
+  }
+}

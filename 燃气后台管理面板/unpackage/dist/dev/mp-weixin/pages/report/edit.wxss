@@ -1,0 +1,12 @@
+
+.uni-container {
+	padding: 15px;
+}
+.uni-button-group {
+	margin-top: 30px;
+	display: flex;
+	gap: 15px;
+}
+.uni-button {
+	flex: 1;
+}
